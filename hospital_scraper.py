@@ -47,4 +47,4 @@ if __name__ == "__main__":
         
         # 如果不是最後一次，就乖乖等 15 分鐘 (900秒) 再抓下一次
         if i < total_runs - 1:
-            time.sleep(900)
+            time.sleep(300)
