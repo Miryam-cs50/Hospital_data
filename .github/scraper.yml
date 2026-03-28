@@ -1,9 +1,5 @@
 name: Hospital Data Scraper
 
-on:
-  schedule:
-    - cron: '0 */4 * * *'  # 這裡改了！代表每 4 小時的整點觸發一次
-  workflow_dispatch:
 
 jobs:
   build:
