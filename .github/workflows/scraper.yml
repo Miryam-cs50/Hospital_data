@@ -1,11 +1,6 @@
 name: Hospital Data Scraper
 
 # 設定觸發條件
-on:
-  schedule:
-    # 這是 Cron 語法，代表「每 5 分鐘執行一次」
-    - cron: '*/5 * * * *'
-  workflow_dispatch: # 允許您手動點擊按鈕測試運行
 
 jobs:
   build:
